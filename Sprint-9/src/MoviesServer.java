@@ -5,16 +5,21 @@ import java.net.InetSocketAddress;
 
 class MoviesServer {
     private final HttpServer server;
-    private final MoviesStore store = new MoviesStore();
+    private MoviesStore store = new MoviesStore();
 
-    public MoviesServer() {
+    public MoviesServer(MoviesStore store, int port) {
+        this.store = store;
         try {
-            server = HttpServer.create(new InetSocketAddress(8080), 0);
-            server.createContext("/movies", new MoviesHandler());
+            server = HttpServer.create(new InetSocketAddress(port), 0);
+            server.createContext("/movies", new MoviesHandler(store));
             server.setExecutor(null);
         } catch (IOException e) {
             throw new RuntimeException("Не удалось создать HTTP-сервер", e);
         }
+    }
+
+    public MoviesServer() {
+        this(new MoviesStore(), 8080);
     }
 
     public void start() {
@@ -29,5 +34,9 @@ class MoviesServer {
 
     public MoviesStore getStore() {
         return store;
+    }
+
+    private int getPort() {
+        return server.getAddress().getPort();
     }
 }

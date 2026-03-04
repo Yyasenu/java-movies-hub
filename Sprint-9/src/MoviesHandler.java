@@ -8,7 +8,11 @@ import java.util.Optional;
 import static jdk.internal.icu.impl.Utility.escape;
 
 class MoviesHandler extends BaseHttpHandler {
-    private final MoviesStore store = new MoviesStore();
+    private final MoviesStore store;
+
+    public MoviesHandler(MoviesStore store) {
+        this.store = store;
+    }
 
     @Override
     public void handle(HttpExchange ex) throws IOException {
