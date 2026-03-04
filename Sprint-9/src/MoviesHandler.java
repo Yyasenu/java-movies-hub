@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import static jdk.internal.icu.impl.Utility.escape;
-
 class MoviesHandler extends BaseHttpHandler {
     private final MoviesStore store;
 

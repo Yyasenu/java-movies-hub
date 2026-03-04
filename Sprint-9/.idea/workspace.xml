@@ -30,6 +30,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MovieHubApp.executor": "Run",
     "Downloaded.Files.Path": "C:\\Users\\yyasenu\\Gson\\m1-t25-api",
     "Downloaded.Files.Path.Enabled": "true",
     "JUnit.MoviesApiTest.executor": "Run",
@@ -50,7 +51,14 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MoviesApiTest">
+  <component name="RunManager" selected="Application.MovieHubApp">
+    <configuration name="MovieHubApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovieHubApp" />
+      <module name="Sprint-9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoviesApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint-9" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovieHubApp" />
         <item itemvalue="JUnit.MoviesApiTest" />
         <item itemvalue="JUnit.MoviesApiTest.testUnsupportedMethod_Returns405" />
         <item itemvalue="JUnit.MoviesApiTest.testGetAllMovies_EmptyList" />

@@ -1,11 +1,10 @@
 import com.sun.net.httpserver.HttpServer;
-
 import java.io.IOException;
 import java.net.InetSocketAddress;
 
 class MoviesServer {
     private final HttpServer server;
-    private MoviesStore store = new MoviesStore();
+    private final MoviesStore store;
 
     public MoviesServer(MoviesStore store, int port) {
         this.store = store;
