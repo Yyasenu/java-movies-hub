@@ -1,0 +1,7 @@
+./src/BaseHttpHandler.java
+./src/ErrorResponse.java
+./src/Movie.java
+./src/MovieHubApp.java
+./src/MoviesHandler.java
+./src/MoviesServer.java
+./src/MoviesStore.java
