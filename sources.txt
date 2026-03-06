@@ -1,7 +1,8 @@
-./src/BaseHttpHandler.java
-./src/ErrorResponse.java
-./src/Movie.java
-./src/MovieHubApp.java
-./src/MoviesHandler.java
-./src/MoviesServer.java
-./src/MoviesStore.java
+./src/main/BaseHttpHandler.java
+./src/main/ErrorResponse.java
+./src/main/Movie.java
+./src/main/MovieHubApp.java
+./src/main/MoviesHandler.java
+./src/main/MoviesServer.java
+./src/main/MoviesStore.java
+./Test/MoviesApiTest.java
