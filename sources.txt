@@ -1,8 +1,0 @@
-./src/main/BaseHttpHandler.java
-./src/main/ErrorResponse.java
-./src/main/Movie.java
-./src/main/MovieHubApp.java
-./src/main/MoviesHandler.java
-./src/main/MoviesServer.java
-./src/main/MoviesStore.java
-./Test/MoviesApiTest.java
