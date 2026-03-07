@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Sprint-9" options="--add-exports java.base/jdk.internal.icu.impl=ALL-UNNAMED --add-modules jdk.management.agent --add-exports jdk.management.agent/sun.management.jmxremote=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>

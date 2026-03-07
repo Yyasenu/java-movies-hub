@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="google.googlejavaformat.java.format" type="repository">
+    <properties maven-id="com.google.googlejavaformat:google-java-format:1.19.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Gson/m1-t25-api/google-java-format-1.19.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Gson/m1-t25-api/guava-32.1.3-jre.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Gson/m1-t25-api/failureaccess-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Gson/m1-t25-api/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Gson/m1-t25-api/jsr305-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Gson/m1-t25-api/checker-qual-3.37.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Gson/m1-t25-api/error_prone_annotations-2.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Gson/m1-t25-api/j2objc-annotations-2.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

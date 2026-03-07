@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="google.gms.services" type="repository">
+    <properties maven-id="com.google.gms:google-services:3.1.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Gson/m1-t25-api/google-services-3.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
